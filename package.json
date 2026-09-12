@@ -1,0 +1,27 @@
+{
+  "name": "city-3d",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://1103416806-hub.github.io/3d-city/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1103416806-hub/3d-city.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5178",
+    "build": "vite build",
+    "build:pages": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5178"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.180.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "@vitejs/plugin-react": "^4.7.0"
+  }
+}
